@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		B050A1412672720F00EABCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B050A1402672720F00EABCA1 /* Assets.xcassets */; };
 		B050A1442672720F00EABCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B050A1422672720F00EABCA1 /* LaunchScreen.storyboard */; };
 		B050A14D2672728200EABCA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B050A14C2672728200EABCA1 /* GoogleService-Info.plist */; };
+		B0F718D4267281DF003B058E /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F718D3267281DF003B058E /* AuthUser.swift */; };
+		B0F718D72672826A003B058E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F718D62672826A003B058E /* User.swift */; };
+		B0F718DA2672846B003B058E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F718D92672846B003B058E /* UserProfileViewController.swift */; };
 		E7FEC0DCEA404C47EDF778B5 /* Pods_testFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D806B1FD45A3FE0B7D231B6 /* Pods_testFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		B050A1432672720F00EABCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B050A1452672720F00EABCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B050A14C2672728200EABCA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0F718D3267281DF003B058E /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		B0F718D62672826A003B058E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0F718D92672846B003B058E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 				B050A1402672720F00EABCA1 /* Assets.xcassets */,
 				B050A1422672720F00EABCA1 /* LaunchScreen.storyboard */,
 				B050A1452672720F00EABCA1 /* Info.plist */,
+				B0F718D3267281DF003B058E /* AuthUser.swift */,
+				B0F718D62672826A003B058E /* User.swift */,
+				B0F718D92672846B003B058E /* UserProfileViewController.swift */,
 			);
 			path = testFirebase;
 			sourceTree = "<group>";
@@ -83,7 +92,6 @@
 				4EA8D484DEFA3E540DB019C9 /* Pods-testFirebase.debug.xcconfig */,
 				1BAFCA4DD375917B826B67C7 /* Pods-testFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B050A13C2672720C00EABCA1 /* ViewController.swift in Sources */,
+				B0F718DA2672846B003B058E /* UserProfileViewController.swift in Sources */,
 				B050A1382672720C00EABCA1 /* AppDelegate.swift in Sources */,
 				B050A13A2672720C00EABCA1 /* SceneDelegate.swift in Sources */,
+				B0F718D72672826A003B058E /* User.swift in Sources */,
+				B0F718D4267281DF003B058E /* AuthUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

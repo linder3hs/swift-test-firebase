@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="57.971014492753625" y="71.651785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--User Profile View Controller-->
         <scene sceneID="SNu-H5-fuh">
             <objects>
-                <viewController id="v8I-Cr-zOP" sceneMemberID="viewController">
+                <viewController id="v8I-Cr-zOP" customClass="UserProfileViewController" customModule="testFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QnK-HT-pxj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,6 +89,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YTl-Cs-EYa"/>
+                    <connections>
+                        <outlet property="lblEmail" destination="Ftc-wK-dYm" id="jSW-lR-DnE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="04O-sU-OlB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
