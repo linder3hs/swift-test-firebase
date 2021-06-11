@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class UserProfileViewController: UIViewController {
 
@@ -13,6 +14,13 @@ class UserProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         lblEmail.text = AuthUser.user().email
+        getUsers()
+    }
+    
+    func getUsers() {
+        Database.database().reference().child("users").observeSingleEvent(of: .value, with: {(snapshot) in
+            print(snapshot)
+        })
     }
     
 
